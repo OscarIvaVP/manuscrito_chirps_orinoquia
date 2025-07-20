@@ -22,8 +22,8 @@ El repositorio está organizado en las siguientes carpetas y archivos principale
 
 - **`*.ipynb`**: Jupyter Notebooks que contienen el código para cada paso del análisis. Están numerados para indicar el orden de ejecución.
 - **`area_de_estudio/`**: Contiene los archivos geoespaciales que definen el área de estudio, como el shapefile de la cuenca del Orinoco.
-- **`datos_chirps/`**: Almacena las imágenes de precipitación en formato GeoTIFF descargadas del portal de CHIRPS.
-- **`datos_ideam/`**: Contiene los datos crudos de precipitación de las estaciones del IDEAM.
+- **`datos_chirps/`**: Carpeta destinada a almacenar las imágenes de precipitación en formato GeoTIFF. **Nota:** Debido a su gran tamaño, los datos crudos no se incluyen en este repositorio. Pueden ser descargados desde el siguiente enlace de Google Drive: [Descargar Datos CHIRPS](https://drive.google.com/drive/folders/1aPQPb-F8TXuX1WhXIET2FuHhTG-bw-z8?usp=sharing).
+- **`datos_ideam/`**: Carpeta destinada a contener los datos crudos de precipitación de las estaciones del IDEAM. **Nota:** Debido a su tamaño, los datos no se incluyen en este repositorio. Pueden ser descargados desde el siguiente enlace: [Descargar Datos IDEAM](https://drive.google.com/file/d/1N1J6l4jktp6G4JX9P-qNMZWr9Iob6Oos/view?usp=sharing).
 - **`datos_analisis/`**: Carpeta con los datos ya procesados y listos para el análisis estadístico, como las series de tiempo mensuales de precipitación para ambas fuentes.
 - **`figuras/`**: Guarda todas las figuras y mapas generados durante el análisis, como los mapas de correlación y error.
 - **`shp/`**: Contiene archivos shapefile adicionales utilizados o generados durante el proceso.
