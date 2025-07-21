@@ -31,6 +31,10 @@ El repositorio está organizado en las siguientes carpetas y archivos principale
 
 ## Flujo de Trabajo
 
+A continuación, se presenta un diagrama que resume el flujo de trabajo completo del proyecto, desde la adquisición de datos hasta la generación de resultados y visualizaciones.
+
+![Esquema del Flujo de Trabajo](figuras/esquema.png)
+
 El análisis se desarrolla a través de los siguientes notebooks, que deben ser ejecutados en orden:
 
 1.  **`1_estaciones_ideam.ipynb`**: Identifica y filtra las estaciones del IDEAM que se encuentran dentro del área de la cuenca del Orinoco.
